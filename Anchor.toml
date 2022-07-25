@@ -1,0 +1,14 @@
+[programs.localnet]
+crowdfunder = "CjqUFxD7kuLjUWyJ6rDkbwCSntBPcQ1BcuNnzkujEzvQ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "./id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+# pubkey: DZsAsuTvYGHgW9K6bYr7PXeWfUX9Um1oE33tjuSe2FQL
+# devnet programID: CjqUFxD7kuLjUWyJ6rDkbwCSntBPcQ1BcuNnzkujEzvQ
